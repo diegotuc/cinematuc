@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    width: 100%;
+    background-image: url('img/fondo.jpg');
+}
+
+.logo-cine{
+    margin-left: 500px;
+    width: 350px;
+    height: 140px;
+}
+
+.container{
+    margin: 10px 0px 10px 60px;
+    width: 95%;
+    height: 50px;
+    background-color: white ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff,
+            1px 5px 10px ;
+    }
+.navigation{
+    
+}   
+li{
+    list-style: none;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu{
+    padding: 15px;
+    display: flex;
+    
+}
+
+.container-slider{
+width: 60%;
+margin: 50px 0px 10px 300px;
+max-width: 800px;
+overflow: hidden;
+box-shadow: 0 0 0 10px #fff,
+            0 15px 50px;
+position: relative;
+
+}
+
+.slider{
+    display: flex;
+    width: 800px;
+    height: 400px; 
+    margin-left:-50%;   
+ 
+}
+
+.slider--img{
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.slider__btn{
+position: absolute;
+width: 40px;
+height: 40px;
+background-color: rgba(255,255,255,
+0.7); 
+top: 50%;
+transform: translatey(-50%);
+font-size: 30px;
+font-weight: bold;
+font-family: monospace;
+text-align: center;
+border-radius: 50%;
+
+}
+
+.slider__btn:hover{
+background-color: white;
+}
+
+.slider--rigth{
+    right: 10px;
+}
+
+.slider--left{
+    left: 10px;
+}
+
+.secrigth{
+   
+   margin-left: 1000px;
+}
+
+.covid19{
+  width: 300px;
+  height: 300px;
+  
+}
+

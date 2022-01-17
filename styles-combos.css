@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    width: 100%;
+    background-image: url('img/fondo.jpg');
+   
+}
+
+.logo-cine{
+    margin-left: 500px;
+    width: 350px;
+    height: 140px;
+}
+
+.container{
+    margin: 10px 0px 10px 40px;
+    width: 95%;
+    height: 50px;
+    background-color: white ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff,
+            1px 5px 10px ;
+    }
+.navigation{
+    
+}   
+li{
+    list-style: none;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu{
+    padding: 15px;
+    display: flex;
+    
+}
+
+.container-combo{
+    margin: 30px 0px 0px 40px 
+}
+
+.img-container{
+    border-radius: 20px;
+    border: black solid 5px ;
+}
+

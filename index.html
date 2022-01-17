@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CINEMATUC</title>
+    
+</head>
+<body>
+<img class="logo-cine" src="img/logo cinematuc.png" alt="">
+    <header class="container">
+        
+        <nav class="navigation" >
+        <div>
+
+            <ul class="menu">
+                
+                <li><a href="cartelera.html">CARTELERA</a></li>
+                <li><a href="horarios.html">HORARIOS</a></li>
+                <li><a href="precios.html">PRECIOS</a></li>
+                <li><a href="combos.html">COMBOS</a></li>
+                <li><a href="promos.html">PROMOCIONES</a></li>
+                <li><a href="proximos.html">PRÓXIMOS ESTRENOS</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+            </ul>
+
+        </div>
+        </nav>
+    </header>
+    <section>
+
+    <!--si pongo .slider--section*5>img.slider--img
+            creo de una sola vez 5 divs conteniendo una clase y en este caso imagenes, sin necesidad de escribir divs una por una o escribir una y copiarla -->
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider--section">
+                    <img src="img/slider1.jpg" alt="" class="slider img">
+                </div>
+                <div class="slider--section">
+                    <img src="img/slider2.jpg" alt="" class="slider img">
+                </div>
+                <div class="slider--section">
+                    <img src="img/slider3.jpg" alt="" class="slider img">
+                </div>
+                <div class="slider--section">
+                    <img src="img/slider4.jpg" alt="" class="slider img">
+                </div>
+                <div class="slider--section">
+                    <img src="img/slider5.jpg" alt="" class="slider img">
+                </div>
+             
+            </div>
+            <div class="slider__btn slider--rigth" id="btn-rigth">></div>
+            <div class="slider__btn slider--left" id="btn-left"><</div>
+        </div> 
+        <!--<section-rigt class="secrigth">
+            <img class="covid19" src="img/covid19.jpg" alt="">
+        </section-rigt> -->
+        <script src="slider.js"></script>
+    
+    </section> 
+  
+</body>
+</html>
+
