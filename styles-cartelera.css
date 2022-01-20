@@ -28,6 +28,13 @@ body{
 .navigation{
     
 }   
+
+a {
+    color: #000;
+    text-decoration: none;
+    
+  }
+
 li{
     list-style: none;
     text-align: center;
@@ -39,6 +46,10 @@ li{
     padding: 15px;
     display: flex;
     
+}
+
+.navigation ul li a:hover{
+    border-bottom: 2px solid red;
 }
 
 

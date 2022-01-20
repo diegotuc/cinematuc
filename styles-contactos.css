@@ -27,15 +27,48 @@ body{
 .navigation{
     
 }   
+a {
+    color: #000;
+    text-decoration: none;
+    
+  }
+
 li{
     list-style: none;
     text-align: center;
-    margin-left: 55px;
+    margin-left: 45px;
     font-size: 20px;
     font-weight: bolder;
 }
 .menu{
     padding: 15px;
     display: flex;
+    
+}
+
+.navigation ul li a:hover{
+    border-bottom: 2px solid red;
+}
+
+.container-box{
+    margin: 100px 0 0 50px;
+    display: grid;
+    grid-template-columns: 400px 800px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px ;
+    grid-row-gap: 80px;
+  
+}
+
+.box{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: slateblue;
+    border: black solid 1px;
+    border-radius: 10px;
+    
+   
+    color: white;
+    text-align:center;
     
 }

@@ -26,11 +26,19 @@ body{
     }
 .navigation{
     
-}   
+}
+
+/*pone una linea debajo de los links del navegador*/
+a {
+    color: #000;
+    text-decoration: none;
+    
+  }
+
 li{
     list-style: none;
     text-align: center;
-    margin-left: 65px;
+    margin-left: 45px;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -38,4 +46,25 @@ li{
     padding: 15px;
     display: flex;
     
+}
+/*efecto que hace visible la linea debajo del link al
+pasar el cursor por encima*/
+.navigation ul li a:hover{
+    border-bottom: 2px solid red;
+}
+.container-movie{
+    width: 80%;
+    margin: 10x 0px 10px ;
+    margin-left: 180px ;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.movie{
+    display: flex;
+    border-bottom: grey 1px solid;
+    margin-bottom: 5px;
 }
